@@ -1,0 +1,128 @@
+.section-padding{
+position: relative;
+}
+.party-content{
+    flex:  0 0 50%;
+    max-width: 50%;
+}
+
+
+h1.party-title {
+    padding: 25px 0 0 76px;
+    width: 80%;
+    text-align: right;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.party-button a {
+    display: inline-block;
+    padding: 17px 67px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #09101b;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+h1.party-box {
+    padding: 50px 0 0 100px;
+    width: 80%;
+    text-align: right;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.party-now a {
+    display: inline-block;
+    padding: 17px 67px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #09101b;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.party-img img{
+    width: 100%;
+}
+.party-img {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.findout_leaf {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media screen and (max-width:1200px) {
+    h1.party-title {
+        padding: 25px 0 0 80px;
+        font-size: 26px;
+    }
+    .party-button a {
+        padding: 15px 26px;
+        color: #fff;
+        font-size: 12px;
+    }
+    h1.party-box {
+        font-size: 26px;
+    }
+    .party-now a{
+        padding: 17px 46px;
+    }
+}
+@media screen and (max-width:768px) {
+    h1.party-title {
+        width: 100%;
+    }
+      .party-button a{
+        padding: 15px 12px;
+        margin: 10px;
+    }
+    h1.party-box {
+        width: 100%;
+    }
+    .party-now a{
+        padding: 15px 35px;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width:567px) {
+   .party-img{
+       flex: 0 0 100%;
+       max-width: 100%;
+   }
+   .party-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+h1.party-title {
+    padding: 24px 0 0 22px;
+}
+.party-now a {
+    margin: 15px;
+}
+h1.party-box {
+    padding: 50px 0 0 9px;
+}
+.picnic-box {
+    padding: 15px 15px;
+    font-size: 11px;
+}
+.form {
+    width: 74%;
+}
+.findout_leaf{
+        top: -49px;
+        right: -43px;
+}
+.findout_leaf img{
+    max-width: 50%;
+}
+}
+

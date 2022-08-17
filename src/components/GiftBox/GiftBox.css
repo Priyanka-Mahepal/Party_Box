@@ -1,0 +1,160 @@
+.banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}  
+.giftbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+.background{
+    background-color: #7dd400;
+    flex: 0 0 40%;
+    max-width: 40%;
+    height: 100%;
+    position: relative;
+}
+.leaf {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    left: 8px;
+}
+.first-img{
+    flex: 0 0 30%;
+    max-width: 30%;
+    background-image: url('../img/s1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-img{
+    flex: 0 0 30%;
+    max-width: 30%;
+    background-image: url('../img/s2.png');
+    text-align: left;
+    background-repeat: no-repeat;
+}
+.first-img img,.second-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.all-content{
+    padding: 60px 0 90px;
+    text-align: center;
+    justify-content: center;
+}
+.small-title {
+    color: #ff4e00;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.big-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.content {
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 43%;
+    right: 6px;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.common-button a{
+    display: inline-block;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #09101b;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 65px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+@media screen and (max-width:1200px) {
+    .big-title{
+        font-size: 35px;
+    }
+   .content{
+       max-width: 83%;
+   }
+   .common-button a{
+       padding: 15px 18px;
+   }
+    
+}
+@media screen and (max-width:768px) {
+    .big-title{
+        font-size: 20px;
+    }
+   .content{
+       max-width: 95%;
+   }
+   .common-button a{
+       padding: 13px 8px;
+   }
+    
+}
+@media screen and (max-width:767px) {
+    .giftbox{
+        height: auto;
+    }
+     .first-img{
+         flex: 0 0 100%;
+         max-width: 100%;
+         height: 100vh;
+     }
+     .second-img{
+         flex: 0 0 100%;
+         max-width: 100%;
+         
+     }
+     .background{
+         flex: 0 0 100%;
+         max-width: 100%;
+         height: 100%;
+     }
+ }
+@media screen and (max-width:575px) {
+   .giftbox{
+       height: auto;
+   }
+    .first-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 300px;
+    }
+    .second-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+    }
+    .background{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .leaf img{
+        max-width: 80%;
+    }
+    .content{
+        padding: 5px;
+    }
+    .big-title{
+        padding: 8px;
+    }
+}

@@ -1,0 +1,63 @@
+
+.bg-myBlack {
+  background-color: rgb(9, 16, 27);
+}
+.bg-searchform form input {
+  background-color: #1c232d;
+  /* background-image: url(D:\party-box\src\components\img\search.png); */
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  padding: 5px 20px 5px 40px;
+  min-width: 540px;
+  min-height: 40px;
+  background-position: 12px;
+  border-radius: 8px;
+  border: none;
+}
+.topBar{
+    flex-direction: row;
+    height: 100%;
+}
+.shopCart {
+  position: relative;
+}
+
+.cart {
+  position: absolute;
+  background-color: #7dd400;
+  height: 16px;
+
+  width: 16px;
+  line-height: 15px;
+  text-align: center;
+  top: 10px;
+  font-size: 12px;
+  color: #fff;
+  right: 0px;
+  border-radius: 13px;
+}
+/* .scart{
+    flex-direction: row;
+} */
+
+@media screen and (max-width: 768px){
+      .logoo img{
+        width: 85%;
+      }
+      .bg-searchform form input {
+        min-width: 100%;
+      }
+}
+@media screen and (max-width: 567px){
+  .logoo img{
+    width: 85%;
+  }
+  .bg-searchform form input {
+    min-width: 100%;
+  }
+  .d-flex.justify-content-between.scart {
+    position: absolute;
+    top: 0;
+    left: 192px;
+  }
+}
